@@ -9,7 +9,7 @@ Today, I'm building a public portfolio of practical Linux and infrastructure pro
 ## Connect
 
 * 🌐 Website: [LinuxSprout.com](https://linuxsprout.com/about)
-* 💼 LinkedIn: [LinkedIn/yogendra-kumar](https://linkedin.com/in/yogendra-kumar-7592602ba)
+* 💼 LinkedIn: [LinkedIn/yogendra-kumar](https://www.linkedin.com/in/yogendra-kumar-7592602ba)
 * 📧 Email: [yogendra.work@gmail.com](mailto:yogendra.work@gmail.com)
 
 ---
