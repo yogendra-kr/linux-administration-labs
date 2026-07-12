@@ -180,6 +180,7 @@ sudo chmod +x health-check.sh     # Made the script executable
 
 ## Checks Performed
 
+- Generation time
 - Hostname
 - Uptime
 - Memory usage
@@ -191,4 +192,4 @@ sudo chmod +x health-check.sh     # Made the script executable
 
 ## Validation
 
-- Script executed successfully without errors.
+- [Script](../assets/screenshots/ubuntu-server-commissioning-04-ufw-rules.png) executed successfully without errors.

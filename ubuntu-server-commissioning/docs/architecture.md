@@ -1,9 +1,9 @@
 # Architecture
 
-## Environment
+## [Environment](../assets/screenshots/ubuntu-server-commissioning-01-pve-hardware-overview.png)
 
 Host Hypervisor:
-- Proxmox VE
+- Proxmox VE 
 
 Virtual Machine:
 - Ubuntu Server 25.04 (Plucky Puffin)
