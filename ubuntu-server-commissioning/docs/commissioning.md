@@ -16,7 +16,7 @@ The goal was to prepare the server for secure administration and verify that the
 
 ### Snapshot and Rollback Planning
 
-- Created a Proxmox snapshot before system changes
+- Created a Proxmox [snapshot](../assets/ubuntu-server-commissioning-01-pve-hardware-overview.png)  before system changes
 - Used the snapshot as a rollback point for unexpected issues
 
 ### SSH Configuration Review
