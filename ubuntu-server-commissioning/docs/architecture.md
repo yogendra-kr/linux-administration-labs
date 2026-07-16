@@ -1,6 +1,8 @@
 # Architecture
 
-## [Environment](../assets/screenshots/ubuntu-server-commissioning-01-pve-hardware-overview.png)
+## Environment
+![pve-environment](../assets/screenshots/ubuntu-server-commissioning-01-pve-hardware-overview.png)
+
 
 Host Hypervisor:
 - Proxmox VE 
