@@ -9,7 +9,7 @@ Inspect the current storage configuration before making any storage changes.
 - Hypervisor: `Proxmox VE`
 - Disk Size: `20 GB`
 
-# Commands Used
+## Commands Used
 
 ```bash
 lsblk -f
@@ -20,7 +20,7 @@ sudo lvs
 sudo fdisk -l
 ```
 
-# Findings
+## Findings
 
 - The server has one 20 GB virtual disk (`/dev/sda`) using a GPT partition table.
 - The `/boot` filesystem resides on a dedicated ext4 partition (`/dev/sda2`).
@@ -30,6 +30,6 @@ sudo fdisk -l
 - The root filesystem uses the `ext4` filesystem.
 - The Volume Group currently has approximately **8.22 GB** of unallocated space, which can be used to expand existing Logical Volumes or create new ones.
 
-# Conclusion
+## Conclusion
 
 The inspection confirms that the server is already configured with LVM. Since the Volume Group has approximately **8.22 GB** of free space, the root Logical Volume can be extended without adding another virtual disk. This provides a safe environment for the first storage expansion exercise.
