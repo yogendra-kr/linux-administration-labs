@@ -1,6 +1,7 @@
 # Architecture
 
 ## Environment
+
 ![pve-environment](../assets/screenshots/ubuntu-server-commissioning-01-pve-hardware-overview.png)
 
 
