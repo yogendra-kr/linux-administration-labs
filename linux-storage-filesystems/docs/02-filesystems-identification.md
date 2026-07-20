@@ -12,7 +12,7 @@ cat /etc/fstab
 findmnt /
 ```
 
-## Findings
+# Findings
 
 - The root filesystem (`/`) is hosted on the Logical Volume `ubuntu-lv`.
 - The root filesystem uses the `ext4` filesystem.
@@ -21,6 +21,6 @@ findmnt /
 - The system uses persistent device identifiers (`/dev/disk/by-id` and `/dev/disk/by-uuid`) to ensure reliable mounting.
 - `findmnt` confirms that `/` is backed by `/dev/mapper/ubuntu--vg-ubuntu--lv`.
 
-## Conclusion
+# Conclusion
 
 The root filesystem is an ext4 filesystem stored on an LVM Logical Volume. Linux mounts it automatically during boot using entries defined in `/etc/fstab`, allowing the filesystem to remain available regardless of changes to device names.
