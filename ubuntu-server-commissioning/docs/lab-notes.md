@@ -192,4 +192,6 @@ sudo chmod +x health-check.sh     # Made the script executable
 
 ## Validation
 
-- [Script](../assets/screenshots/ubuntu-server-commissioning-05-health-check-script.png) executed successfully without errors.
+- Script executed successfully without errors.
+
+  ![Script](../assets/screenshots/ubuntu-server-commissioning-05-health-check-script.png) 

@@ -2,9 +2,6 @@
 
 Expand the existing LVM storage by adding a new virtual disk, creating a new Physical Volume, extending the existing Volume Group, extending the Logical Volume, and finally growing the ext4 filesystem.
 
-
----
-
 ## Initial Storage State
 
 ```
@@ -28,9 +25,10 @@ Logical Volume (ubuntu-lv)
 ext4 Filesystem (/)
 ```
 
+
 **LVM Status (Start of Lab):**
 
-The existing Volume Group had already been expanded in the [[04-lvm-storage-expansion|previous lab]] by utilizing its available free space.
+The existing Volume Group had already been expanded in the [previous lab](04-lvm-storage-expansion) by utilizing its available free space.
 
 |Component|Value|
 |---|---|
